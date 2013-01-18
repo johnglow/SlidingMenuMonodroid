@@ -77,13 +77,13 @@ namespace SlidingMenuDemo
 		{
 			
 			// aapt resource value: 0x7f050001
-			public const int ListPadding = 2131034113;
+			public const int list_padding = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int ShadowWidth = 2131034114;
+			public const int shadow_width = 2131034114;
 			
 			// aapt resource value: 0x7f050000
-			public const int SlidingMenuOffset = 2131034112;
+			public const int slidingmenu_offset = 2131034112;
 			
 			private Dimension()
 			{
@@ -94,10 +94,58 @@ namespace SlidingMenuDemo
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int eagle = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Shadow = 2130837505;
+			public const int flamingo = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int heron = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_action_github = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ic_launcher = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int Icon = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int indicator = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int new_indicator = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int octocat = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int octocat_scaled = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int ostrich = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int peacock = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int penguin = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int Shadow = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int shadowright = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int toucan = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int turkey = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int vulture = 2130837521;
 			
 			private Drawable()
 			{
@@ -122,11 +170,17 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f040001
 			public const int right = 2130968577;
 			
+			// aapt resource value: 0x7f040006
+			public const int row_icon = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int row_title = 2130968583;
+			
 			// aapt resource value: 0x7f040004
 			public const int selected_view = 2130968580;
 			
-			// aapt resource value: 0x7f040006
-			public const int slidingmenumain = 2130968582;
+			// aapt resource value: 0x7f040008
+			public const int slidingmenumain = 2130968584;
 			
 			private Id()
 			{
@@ -137,7 +191,7 @@ namespace SlidingMenuDemo
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int NumberColumns = 2131099648;
+			public const int num_cols = 2131099648;
 			
 			private Integer()
 			{
@@ -148,10 +202,16 @@ namespace SlidingMenuDemo
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int list = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int slidingmenumain = 2130903041;
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int row = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int slidingmenumain = 2130903043;
 			
 			private Layout()
 			{
