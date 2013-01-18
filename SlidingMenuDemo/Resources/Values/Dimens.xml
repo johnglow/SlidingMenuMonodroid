@@ -1,0 +1,6 @@
+﻿<resources>
+  <dimen name="SlidingMenuOffset">60dp</dimen>
+  <dimen name="ListPadding">10dp</dimen>
+  <dimen name="ShadowWidth">15dp</dimen>
+  <integer name="NumberColumns">1</integer>
+</resources>
