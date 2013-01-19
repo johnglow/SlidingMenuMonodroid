@@ -1,15 +1,77 @@
 ﻿using System;
 using System.Collections.Generic;
+using ActionbarSherlock.App;
+using ActionbarSherlock.View;
+using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
 
+using SlidingMenuBinding.Lib;
+using SlidingMenuBinding.Lib.App;
+
+using IMenu = global::ActionbarSherlock.View.IMenu;
+using IMenuItem = global::ActionbarSherlock.View.IMenuItem;
+using MenuItem = global::ActionbarSherlock.View.MenuItem;
+using ISubMenu = global::ActionbarSherlock.View.ISubMenu;
+
 namespace SlidingMenuDemo
 {
-  public class BaseActivity : FragmentActivity
+  public class BaseActivity : SlidingFragmentActivity /*FragmentActivity*/
   {
+    private int titleRes;
+    protected ListFragment frag;
 
+    public BaseActivity(int titleRes)
+    {
+      this.titleRes = titleRes;
+    }
 
+    public override void OnCreate(Bundle savedInstanceState)
+    {
+      base.OnCreate(savedInstanceState);
+      SetTitle(titleRes);
+
+      // set the Behind View
+      SetBehindContentView(Resource.Layout.menu_frame);
+      FragmentTransaction t = this.SupportFragmentManager.BeginTransaction();
+      frag = new SampleListFragment();
+      t.Replace(Resource.Layout.menu_frame, frag);
+      t.Commit();
+
+      // customize the SlidingMenu
+      SlidingMenu sm = SlidingMenu; // note: normally a method getSlidingMenu(); this looks retarded!
+      sm.SetShadowWidthRes(Resource.Dimension.shadow_width);
+      sm.SetShadowDrawable(Resource.Drawable.Shadow);
+      sm.SetBehindOffsetRes(Resource.Dimension.slidingmenu_offset);
+      sm.SetFadeDegree(0.35f);
+      sm.TouchModeAbove = SlidingMenu.TouchmodeFullscreen;
+
+      SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+    }
+
+    public override bool OnOptionsItemSelected(IMenuItem item)
+    {
+      // TODO: For some reason (Probably API level) android.R.id.home is missing
+      
+//      switch (item.getItemId())
+//      {
+//        case android.R.id.home:
+//          toggle();
+//          return true;
+//        case R.id.github:
+//          Util.goToGitHub(this);
+//          return true;
+//      }
+      
+      return base.OnOptionsItemSelected(item);
+    }
+
+    public override bool OnCreateOptionsMenu(IMenu menu)
+    {
+      SupportMenuInflater.Inflate(Resource.Menu.main, menu);
+      return true;
+    }
 
     public class BasePagerAdapter : FragmentPagerAdapter
     {

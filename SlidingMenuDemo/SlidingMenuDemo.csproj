@@ -39,6 +39,9 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ActionBarSherlock">
+      <HintPath>..\References\ActionBarSherlock.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Support.v4" />
     <Reference Include="mscorlib" />
@@ -66,12 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SlidingMenuBinding\SlidingMenuBinding.csproj">
-      <Project>{81c5e4c1-0e21-43e9-8dfe-a8cebecbda3c}</Project>
-      <Name>SlidingMenuBinding</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Properties\AndroidManifest.xml" />
@@ -162,6 +159,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\list.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SlidingMenuBinding\SlidingMenuBinding.csproj">
+      <Project>{81c5e4c1-0e21-43e9-8dfe-a8cebecbda3c}</Project>
+      <Name>SlidingMenuBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\menu_frame.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\main.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

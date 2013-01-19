@@ -3,4 +3,8 @@
   <string name="Hello">Click Me!</string>
   <string name="ApplicationName">SlidingMenuMonoDroid</string>
   <string name="Title">SlidingMenuMonoDroid</string>
+
+  <string name="github">GitHub</string>
+  <string name="github_label">SlidingMenu on GitHub</string>
+  
 </resources>
