@@ -5,7 +5,7 @@ using SlidingMenuDemo.Fragments;
 
 namespace SlidingMenuDemo
 {
-  [Activity(MainLauncher = true)]
+  [Activity]
   public class FragmentChangeActivity : BaseActivity
   {
     private Fragment mContent;

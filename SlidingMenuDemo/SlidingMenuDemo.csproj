@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="ExampleListActivity.cs" />
     <Compile Include="Fragments\ColorMenuFragment.cs" />
     <Compile Include="Fragments\ColorFragment.cs" />
     <Compile Include="FragmentChangeActivity.cs" />
@@ -183,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\array.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Xml\main.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\example_list.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
