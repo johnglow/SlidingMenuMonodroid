@@ -36,7 +36,7 @@ namespace SlidingMenuDemo
       SetBehindContentView(Resource.Layout.menu_frame);
       FragmentTransaction t = this.SupportFragmentManager.BeginTransaction();
       frag = new SampleListFragment();
-      //t.Replace(Resource.Layout.menu_frame, frag);
+      t.Replace(Resource.Id.menu_frame, frag);
       t.Commit();
 
       // customize the SlidingMenu

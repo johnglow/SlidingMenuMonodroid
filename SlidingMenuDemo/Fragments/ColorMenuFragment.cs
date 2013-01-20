@@ -45,9 +45,9 @@ namespace SlidingMenuDemo.Fragments
       if (Activity == null)
         return;
 
-      if (Activity is FragementChangeActivity)
+      if (Activity is FragmentChangeActivity)
       {
-        var activity = (FragementChangeActivity) Activity;
+        var activity = (FragmentChangeActivity) Activity;
         activity.SwitchContent(fragment);
       }
 

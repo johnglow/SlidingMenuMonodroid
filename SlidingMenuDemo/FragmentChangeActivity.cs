@@ -6,11 +6,11 @@ using SlidingMenuDemo.Fragments;
 namespace SlidingMenuDemo
 {
   [Activity(MainLauncher = true)]
-  public class FragementChangeActivity : BaseActivity
+  public class FragmentChangeActivity : BaseActivity
   {
     private Fragment mContent;
 
-    public FragementChangeActivity() : base(Resource.String.changing_fragments)
+    public FragmentChangeActivity() : base(Resource.String.changing_fragments)
     {
     }
 

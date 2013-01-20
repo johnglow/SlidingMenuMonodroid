@@ -51,11 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity1.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="Fragments\ColorMenuFragment.cs" />
     <Compile Include="Fragments\ColorFragment.cs" />
-    <Compile Include="FragementChangeActivity.cs" />
+    <Compile Include="FragmentChangeActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Fragments\SampleListFragment.cs" />
