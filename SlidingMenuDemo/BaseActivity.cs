@@ -6,10 +6,10 @@ using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
-
+using Android.Util;
 using SlidingMenuBinding.Lib;
 using SlidingMenuBinding.Lib.App;
-
+using SlidingMenuDemo.Fragments;
 using IMenu = global::ActionbarSherlock.View.IMenu;
 using IMenuItem = global::ActionbarSherlock.View.IMenuItem;
 using MenuItem = global::ActionbarSherlock.View.MenuItem;
@@ -36,7 +36,7 @@ namespace SlidingMenuDemo
       SetBehindContentView(Resource.Layout.menu_frame);
       FragmentTransaction t = this.SupportFragmentManager.BeginTransaction();
       frag = new SampleListFragment();
-      t.Replace(Resource.Layout.menu_frame, frag);
+      //t.Replace(Resource.Layout.menu_frame, frag);
       t.Commit();
 
       // customize the SlidingMenu
@@ -52,8 +52,10 @@ namespace SlidingMenuDemo
 
     public override bool OnOptionsItemSelected(IMenuItem item)
     {
-      // TODO: For some reason (Probably API level) android.R.id.home is missing
+      Log.Info("infro", "Octocat was clicked!");
+      Util.GoToGithub(this);
       
+      // TODO: For some reason (Probably API level) android.R.id.home is missing (We don't really need to go to github etc.)
 //      switch (item.getItemId())
 //      {
 //        case android.R.id.home:

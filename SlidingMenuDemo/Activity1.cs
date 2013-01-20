@@ -13,7 +13,7 @@ using SlidingMenuBinding.Lib.App;
 
 namespace SlidingMenuDemo
 {
-  [Activity(Label = "MonoDroid Sliding Menu", MainLauncher = true, Icon = "@drawable/icon")]
+  //[Activity(Label = "MonoDroid Sliding Menu", MainLauncher = true, Icon = "@drawable/icon")]
   public class Activity1 : Activity
   {
     int count = 1;

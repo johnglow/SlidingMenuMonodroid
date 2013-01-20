@@ -1,13 +1,10 @@
-﻿using System;
-using System.Linq;
-using Android.Content;
+﻿using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
 
-namespace SlidingMenuDemo
+namespace SlidingMenuDemo.Fragments
 {
   public class SampleListFragment : ListFragment
   {
@@ -51,13 +48,11 @@ namespace SlidingMenuDemo
           convertView = LayoutInflater.From(this.Context).Inflate(Resource.Layout.row, null);
         }
 
-        SampleItem item = GetItem(position);
+        ImageView icon = (ImageView)convertView.FindViewById(Resource.Id.row_icon);
+        icon.SetImageResource(GetItem(position).IconRes);
 
-        var icon = convertView.FindViewById<ImageView>(Resource.Id.row_icon);
-        var title = convertView.FindViewById<TextView>(Resource.Id.row_title);
-        
-        icon.SetImageResource(item.IconRes);
-        title.Text = item.Tag;
+        TextView title = (TextView)convertView.FindViewById(Resource.Id.row_title);
+        title.Text = GetItem(position).Tag;
 
         return convertView;
       }

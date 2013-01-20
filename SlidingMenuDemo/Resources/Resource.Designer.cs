@@ -23,6 +23,23 @@ namespace SlidingMenuDemo
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0b0001
+			public const int birds = 2131427329;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int birds_img = 2131427330;
+			
+			// aapt resource value: 0x7f0b0000
+			public const int color_names = 2131427328;
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -420,17 +437,32 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f060008
 			public const int abs__holo_blue_light = 2131099656;
 			
-			// aapt resource value: 0x7f060009
-			public const int abs__primary_text_disable_only_holo_dark = 2131099657;
+			// aapt resource value: 0x7f06000e
+			public const int abs__primary_text_disable_only_holo_dark = 2131099662;
 			
-			// aapt resource value: 0x7f06000a
-			public const int abs__primary_text_disable_only_holo_light = 2131099658;
+			// aapt resource value: 0x7f06000f
+			public const int abs__primary_text_disable_only_holo_light = 2131099663;
+			
+			// aapt resource value: 0x7f060010
+			public const int abs__primary_text_holo_dark = 2131099664;
+			
+			// aapt resource value: 0x7f060011
+			public const int abs__primary_text_holo_light = 2131099665;
+			
+			// aapt resource value: 0x7f06000d
+			public const int black = 2131099661;
 			
 			// aapt resource value: 0x7f06000b
-			public const int abs__primary_text_holo_dark = 2131099659;
+			public const int blue = 2131099659;
+			
+			// aapt resource value: 0x7f06000a
+			public const int green = 2131099658;
+			
+			// aapt resource value: 0x7f060009
+			public const int red = 2131099657;
 			
 			// aapt resource value: 0x7f06000c
-			public const int abs__primary_text_holo_light = 2131099660;
+			public const int white = 2131099660;
 			
 			private Color()
 			{
@@ -903,8 +935,8 @@ namespace SlidingMenuDemo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040038
-			public const int MyButton = 2130968632;
+			// aapt resource value: 0x7f040039
+			public const int MyButton = 2130968633;
 			
 			// aapt resource value: 0x7f040027
 			public const int abs__action_bar = 2130968615;
@@ -1026,6 +1058,9 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f040010
 			public const int abs__up = 2130968592;
 			
+			// aapt resource value: 0x7f040038
+			public const int content_frame = 2130968632;
+			
 			// aapt resource value: 0x7f04000e
 			public const int disableHome = 2130968590;
 			
@@ -1035,8 +1070,8 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f040003
 			public const int fullscreen = 2130968579;
 			
-			// aapt resource value: 0x7f04003d
-			public const int github = 2130968637;
+			// aapt resource value: 0x7f04003e
+			public const int github = 2130968638;
 			
 			// aapt resource value: 0x7f04000b
 			public const int homeAsUp = 2130968587;
@@ -1050,8 +1085,8 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f040002
 			public const int margin = 2130968578;
 			
-			// aapt resource value: 0x7f040039
-			public const int menu_frame = 2130968633;
+			// aapt resource value: 0x7f04003a
+			public const int menu_frame = 2130968634;
 			
 			// aapt resource value: 0x7f040006
 			public const int normal = 2130968582;
@@ -1059,11 +1094,11 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f040001
 			public const int right = 2130968577;
 			
-			// aapt resource value: 0x7f04003a
-			public const int row_icon = 2130968634;
-			
 			// aapt resource value: 0x7f04003b
-			public const int row_title = 2130968635;
+			public const int row_icon = 2130968635;
+			
+			// aapt resource value: 0x7f04003c
+			public const int row_title = 2130968636;
 			
 			// aapt resource value: 0x7f040004
 			public const int selected_view = 2130968580;
@@ -1077,8 +1112,8 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f04000c
 			public const int showTitle = 2130968588;
 			
-			// aapt resource value: 0x7f04003c
-			public const int slidingmenumain = 2130968636;
+			// aapt resource value: 0x7f04003d
+			public const int slidingmenumain = 2130968637;
 			
 			// aapt resource value: 0x7f040008
 			public const int tabMode = 2130968584;
@@ -1181,25 +1216,28 @@ namespace SlidingMenuDemo
 			public const int abs__simple_dropdown_hint = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int list = 2130903063;
+			public const int content_frame = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int Main = 2130903064;
+			public const int list = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int menu_frame = 2130903065;
+			public const int Main = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int row = 2130903066;
+			public const int menu_frame = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int sherlock_spinner_dropdown_item = 2130903067;
+			public const int row = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int sherlock_spinner_item = 2130903068;
+			public const int sherlock_spinner_dropdown_item = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int slidingmenumain = 2130903069;
+			public const int sherlock_spinner_item = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int slidingmenumain = 2130903070;
 			
 			private Layout()
 			{
@@ -1209,8 +1247,8 @@ namespace SlidingMenuDemo
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int main = 2131427328;
+			// aapt resource value: 0x7f0c0000
+			public const int main = 2131492864;
 			
 			private Menu()
 			{
@@ -1273,6 +1311,9 @@ namespace SlidingMenuDemo
 			
 			// aapt resource value: 0x7f090009
 			public const int abs__shareactionprovider_share_with_application = 2131296265;
+			
+			// aapt resource value: 0x7f090014
+			public const int changing_fragments = 2131296276;
 			
 			// aapt resource value: 0x7f090012
 			public const int github = 2131296274;
