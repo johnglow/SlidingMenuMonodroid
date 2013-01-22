@@ -2,11 +2,10 @@
   <attr path="/api/package[@name='com.slidingmenu.lib']" name="managedName">SlidingMenuBinding.Lib</attr>
   <attr path="/api/package[@name='com.slidingmenu.lib.app']" name="managedName">SlidingMenuBinding.Lib.App</attr>
   
-  <!--  <attr path="/api/package[@name='com.slidingmenu.lib']/class[@name='SlidingMenu.CanvasTransformer']" name="obfuscated">false</attr>-->
-  <!--  <attr path="/api/package[@name='com.slidingmenu.lib']/class[@name='SlidingMenu$CanvasTransformer']" name="obfuscated">false</attr>-->
-  <!--  <attr path="/api/package[@name='com.slidingmenu.lib']/class[@name='SlidingMenu']/interface[@name='CanvasTransformer']" name="obfuscated">false</attr>-->
-
   <attr path="/api/package[@name='com.slidingmenu.lib']/interface[@name='SlidingMenu.CanvasTransformer']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.slidingmenu.lib']/interface[@name='SlidingMenu.CanvasTransformer']" name="visibility">public</attr>
+  
+  
   <attr path="/api/package[@name='com.slidingmenu.lib']/interface[@name='SlidingMenu.OnOpenListener']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.slidingmenu.lib']/interface[@name='SlidingMenu.OnOpenedListener']" name="obfuscated">false</attr>
   <attr path="/api/package[@name='com.slidingmenu.lib']/interface[@name='SlidingMenu.OnCloseListener']" name="obfuscated">false</attr>
