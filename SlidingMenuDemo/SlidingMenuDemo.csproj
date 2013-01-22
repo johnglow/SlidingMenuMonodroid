@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animation\CustomAnimation.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="ExampleListActivity.cs" />
     <Compile Include="Fragments\ColorMenuFragment.cs" />
