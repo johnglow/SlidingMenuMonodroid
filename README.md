@@ -20,6 +20,8 @@ Cavets
 
 No Intellisense yet in VisualStudio and MonoDevelop. [This is a known issue][9]. But don't worry you should be able to work it out by reading the java source code and also download a copy of [Jetbrains dotpeek][10] so that you can decompile your bindings so that you can see how the bindings were translated from Java to C#.
 
+I also ran into a problem with trying to port the animation samples.. [read about it here][11]. The Xamarin guys came to the rescue.
+
 
 Credits:
 ===========================
