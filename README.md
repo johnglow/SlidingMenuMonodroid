@@ -39,3 +39,4 @@ https://github.com/jfeinstein10/SlidingMenu/
 [8]: http://twitter.com/jakescott
 [9]: http://forums.xamarin.com/discussion/comment/2636#Comment_2636
 [10]: http://www.jetbrains.com/decompiler/
+[11]: http://forums.xamarin.com/discussion/878/slidingmenu-binding-error-missing-class-error-was-raised-while-reflecting-setbehindcanvastransforme#latest
