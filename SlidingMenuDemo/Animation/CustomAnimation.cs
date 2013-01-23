@@ -27,7 +27,7 @@ namespace SlidingMenuDemo.Animation
       SlidingMenu sm = SlidingMenu;
       SetSlidingActionBarEnabled(true);
       sm.BehindScrollScale = 0.0f;
-      //sm.SetBehindCanvasTransformer(this.transformer); // This doesn't work as it is missing from the binding
+      sm.SetBehindCanvasTransformer(this.transformer);
     }
   }
 }

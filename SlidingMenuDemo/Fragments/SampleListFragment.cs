@@ -18,7 +18,7 @@ namespace SlidingMenuDemo.Fragments
       base.OnActivityCreated(savedInstanceState);
       var adapter = new SampleAdapter(Activity);
       for (int i = 0; i < 20; i++) {
-        adapter.Add(new SampleItem("Sample List", Android.Resource.Drawable.IcMenuSearch));
+        adapter.Add(new SampleItem("MenuItem List", Android.Resource.Drawable.IcMenuSearch));
       }
       this.ListAdapter = adapter;
     }

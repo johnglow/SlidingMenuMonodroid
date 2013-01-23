@@ -12,7 +12,7 @@ using Java.Net;
 
 namespace SlidingMenuDemo
 {
-  [Activity(MainLauncher = true)]
+  //[Activity(MainLauncher = true)]
   public class ExampleListActivity : SherlockPreferenceActivity
   {
     protected override void OnCreate(Bundle savedInstanceState)
