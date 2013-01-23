@@ -14,7 +14,8 @@ namespace SlidingMenuDemo
   {
     public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-      return inflater.Inflate(Resource.Layout.list, null);
+      var view = inflater.Inflate(Resource.Layout.list, null);
+      return view;
     }
 
     public override void OnActivityCreated(Bundle savedInstanceState)
@@ -54,42 +55,42 @@ namespace SlidingMenuDemo
       static readonly Dictionary<string, List<MenuItem>> samples = new Dictionary<string, List<MenuItem>>() 
       {
         { 
-          "Cell Styles", 
+          "Section 1", 
           new List<MenuItem>() {
-            new MenuItem ("SimpleListItem1", typeof(FragmentChangeActivity)),
-            new MenuItem ("SimpleListItem2", typeof(FragmentChangeActivity)),
-            new MenuItem ("ActivityListItem", typeof(FragmentChangeActivity)),
-            new MenuItem ("TwoLineListItem", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 1", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 2", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 3", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 4", typeof(FragmentChangeActivity)),
           } 
         },
         { 
-          "Accessory Styles", 
+          "Section 2", 
           new List<MenuItem>() {
-            new MenuItem ("SimpleListItemChecked", typeof(FragmentChangeActivity)),
-            new MenuItem ("SimpleListItemSingleChoice", typeof(FragmentChangeActivity)),
-            new MenuItem ("SimpleListItemMultipleChoice", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 1", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 2", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 3", typeof(FragmentChangeActivity)),
           } 
         },
         { 
-          "Custom Cells", 
+          "Section 3", 
           new List<MenuItem>() {
-            new MenuItem ("ImageAndSubtitle", typeof(FragmentChangeActivity)),
-            new MenuItem ("DateList", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 1", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 2", typeof(FragmentChangeActivity)),
           } 
         },
         { 
-          "Table Styles", 
+          "Section 4", 
           new List<MenuItem>() {
-            new MenuItem ("Fast Scroll", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 1", typeof(FragmentChangeActivity)),
           } 
         },
         { 
-          "Custom Tables", 
+          "Section 5", 
           new List<MenuItem>() {
-            new MenuItem ("Labelled Sections", typeof(FragmentChangeActivity)),
-            new MenuItem ("Labelled Sections with Indexer", typeof(FragmentChangeActivity)),
-            new MenuItem ("Gradient Background", typeof(FragmentChangeActivity)),
-            new MenuItem ("Custom Fast Scroll (API11)", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 1", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 2", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 3", typeof(FragmentChangeActivity)),
+            new MenuItem ("Item 4", typeof(FragmentChangeActivity)),
           } 
         },
       };

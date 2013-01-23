@@ -1064,6 +1064,9 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f05003c
 			public const int Icon = 2131034172;
 			
+			// aapt resource value: 0x7f05003b
+			public const int MenuFrame = 2131034171;
+			
 			// aapt resource value: 0x7f05003a
 			public const int MyButton = 2131034170;
 			
@@ -1229,9 +1232,6 @@ namespace SlidingMenuDemo
 			// aapt resource value: 0x7f050002
 			public const int margin = 2131034114;
 			
-			// aapt resource value: 0x7f05003b
-			public const int menu_frame = 2131034171;
-			
 			// aapt resource value: 0x7f050006
 			public const int normal = 2131034118;
 			
@@ -1372,7 +1372,7 @@ namespace SlidingMenuDemo
 			public const int Main = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int menu_frame = 2130903067;
+			public const int MenuFrame = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
 			public const int MenuItem = 2130903068;

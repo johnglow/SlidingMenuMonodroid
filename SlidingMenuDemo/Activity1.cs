@@ -30,15 +30,15 @@ namespace SlidingMenuDemo
       RequestWindowFeature(WindowFeatures.ActionBar);
 
       SetContentView(Resource.Layout.Main);
-      SetBehindContentView(Resource.Layout.menu_frame);
-      SupportFragmentManager.BeginTransaction().Replace(Resource.Id.menu_frame, new MenuFragment()).Commit();
+      SetBehindContentView(Resource.Layout.MenuFrame);
+      
+      SupportFragmentManager.BeginTransaction().Replace(Resource.Id.MenuFrame, new MenuFragment()).Commit();
 
       SlidingMenu.SetShadowWidthRes(Resource.Dimension.shadow_width);
       SlidingMenu.SetShadowDrawable(Resource.Drawable.Shadow);
       SlidingMenu.SetBehindOffsetRes(Resource.Dimension.slidingmenu_offset);
       SlidingMenu.SetFadeDegree(0.35f);
       SlidingMenu.TouchModeAbove = SlidingMenu.TouchmodeFullscreen;
-
 
       // We have to use the ActionBarSherlock ActionBar
       ActionBar actionBar = SupportActionBar;

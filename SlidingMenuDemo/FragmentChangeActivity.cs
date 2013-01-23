@@ -32,10 +32,10 @@ namespace SlidingMenuDemo
         .Commit();
 
       // set the behind view
-      SetBehindContentView(Resource.Layout.menu_frame);
+      SetBehindContentView(Resource.Layout.MenuFrame);
       SupportFragmentManager
         .BeginTransaction()
-        .Replace(Resource.Id.menu_frame, new ColorMenuFragment())
+        .Replace(Resource.Id.MenuFrame, new ColorMenuFragment())
         .Commit();
 
       // customize the SlidingMenu

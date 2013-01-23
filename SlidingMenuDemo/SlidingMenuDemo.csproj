@@ -182,7 +182,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Layout\menu_frame.xml" />
+    <AndroidResource Include="Resources\Layout\MenuFrame.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Menu\main.xml" />
