@@ -25,7 +25,7 @@ https://github.com/jfeinstein10/SlidingMenu/
 [4]: https://github.com/xamarin/monodroid-samples/tree/master/ActionBarSherlock/ActionBarSherlock
 [5]: http://actionbarsherlock.com
 [6]: http://www.craigsprogramming.com/2012/07/actionbarsherlock-with-mono-for-android.html
-[7]: https://github.com/superlogical/SlidingMenuMonodroid/raw/master/SlidingMenuBinding/Jars/SlidingMenu.zip     
+[7]: https://github.com/superlogical/SlidingMenuMonodroid/raw/master/SlidingMenuBinding/SlidingMenu.zip   
 [8]: http://twitter.com/jakescott
 [9]: http://forums.xamarin.com/discussion/comment/2636#Comment_2636
 [10]: http://www.jetbrains.com/decompiler/
