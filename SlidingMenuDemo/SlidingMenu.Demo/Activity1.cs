@@ -67,6 +67,8 @@ namespace SlidingMenu.Demo
       SlidingMenu.SetBehindOffsetRes(Resource.Dimension.SlidingmenuOffset);
       SlidingMenu.SetFadeDegree(0.35f);
       SlidingMenu.TouchModeAbove = SlidingMenuBinding.Lib.SlidingMenu.TouchmodeFullscreen;
+
+      SupportActionBar.SetDisplayHomeAsUpEnabled(true);
     }
 
     public void SwitchContent(Fragment content)
@@ -83,6 +85,18 @@ namespace SlidingMenu.Demo
       var editor = sharedPreferences.Edit();
       editor.PutString(ContentFragmentType, contentFragment.GetType().Name);
       editor.Commit();
+    }
+
+    public override bool OnOptionsItemSelected(ActionbarSherlock.View.IMenuItem item)
+    {
+      switch (item.ItemId)
+      {
+        case global::Android.Resource.Id.Home : 
+          Toggle();
+          return true;
+      }
+
+      return base.OnOptionsItemSelected(item);
     }
     
     private ISharedPreferences GetSharedPreferences()
