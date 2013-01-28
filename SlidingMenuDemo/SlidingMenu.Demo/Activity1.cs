@@ -21,8 +21,6 @@ namespace SlidingMenu.Demo
     {
       base.OnCreate(savedInstanceState);
 
-      Console.WriteLine("OnCreated called");
-
       RequestWindowFeature(WindowFeatures.ActionBar);
       SetSlidingActionBarEnabled(true);
 
@@ -68,6 +66,7 @@ namespace SlidingMenu.Demo
       SlidingMenu.SetFadeDegree(0.35f);
       SlidingMenu.TouchModeAbove = SlidingMenuBinding.Lib.SlidingMenu.TouchmodeFullscreen;
 
+      // Enable this so that we can toggle the menu when clicking the action bar home button in `OnOptionsItemSelected`
       SupportActionBar.SetDisplayHomeAsUpEnabled(true);
     }
 
