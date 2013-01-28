@@ -58,20 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutActivity.cs" />
-    <Compile Include="BaseActivity.cs" />
-    <Compile Include="Fragments\TabListener.cs" />
-    <Compile Include="Fragments\About1Fragment.cs" />
-    <Compile Include="Fragments\About2Fragment.cs" />
-    <Compile Include="Fragments\About3Fragment.cs" />
-    <Compile Include="LoginActivity.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Activity1.cs" />
+    <Compile Include="Fragments\ColorFragment.cs" />
     <Compile Include="Fragments\MenuFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\Main.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\Strings.xml" />
@@ -84,52 +75,30 @@
     <AndroidResource Include="Resources\Values\Dimensions.xml" />
     <AndroidResource Include="Resources\Drawable\SlidingMenuShadow.xml" />
     <AndroidResource Include="Resources\Values\Styles.xml" />
+    <AndroidResource Include="Resources\Values\Colors.xml" />
+    <AndroidResource Include="Resources\Values\Array.xml" />
+    <AndroidResource Include="Resources\Drawable\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Layout\MenuList.axml">
+    <AndroidResource Include="Resources\Layout\ContentFrame.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Layout\MenuItem.axml">
+    <AndroidResource Include="Resources\Layout\MenuFrame.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Layout\MenuSection.axml">
+    <AndroidResource Include="Resources\Layout\List.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Layout\Menu.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\Login.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\About.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\About1Fragment.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\About3Fragment.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\About2Fragment.axml">
+    <AndroidResource Include="Resources\Layout\ColorFrame.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
